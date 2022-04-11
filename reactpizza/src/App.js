@@ -1,5 +1,6 @@
 import React from "react";
 import logoSvg from "./assets/img/pizza-logo.svg";
+//16:55 #2
 function App() {
   return (
     <div className="wrapper">
