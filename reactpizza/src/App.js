@@ -1,5 +1,4 @@
 import React from "react";
-// 1:35:39
 function App() {
   return (
     <div class="wrapper">
