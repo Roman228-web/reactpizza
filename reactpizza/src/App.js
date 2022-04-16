@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <Button>qwe</Button>
+      <Button outline>qwe</Button>
       <div className="content">
         <div className="container">
           <div className="content__top">
