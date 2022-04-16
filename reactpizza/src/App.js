@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <Button outline="true">qwe</Button>
+      <Button outline={true}>qwe</Button>
 
       <div className="content">
         <div className="container">
