@@ -1,10 +1,11 @@
 import React from "react";
 import Header from "./Header";
-//39:49
+import Button from "./Button";
 function App() {
   return (
     <div className="wrapper">
       <Header />
+      <Button>qwe</Button>
       <div className="content">
         <div className="container">
           <div className="content__top">
