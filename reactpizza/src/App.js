@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-//29:54
+//39:49
 function App() {
   return (
     <div className="wrapper">
