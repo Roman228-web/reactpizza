@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 function Button(props) {
+  console.log(props);
   return (
     <button
       className={classNames("button", {
@@ -11,6 +12,7 @@ function Button(props) {
     </button>
   );
 }
+
 // function Button() {
 //   return <button>Hello</button>;
 // }

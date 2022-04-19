@@ -2,11 +2,17 @@ import React from "react";
 import Header from "./Header";
 import Button from "./Button";
 function App() {
+  const clickPoKnopke = () => {
+    alert("hello");
+  };
+
   return (
     <div className="wrapper">
       <Header />
-      <Button outline={true}>qwe</Button>
-
+      <Button outline={true} onClick={clickPoKnopke}>
+        qweq
+      </Button>
+      console.log(Button);
       <div className="content">
         <div className="container">
           <div className="content__top">
