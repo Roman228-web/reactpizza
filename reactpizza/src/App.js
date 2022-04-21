@@ -9,10 +9,6 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <Button outline={true} onClick={clickPoKnopke}>
-        qweq
-      </Button>
-      console.log(Button);
       <div className="content">
         <div className="container">
           <div className="content__top">
