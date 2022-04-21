@@ -1,17 +1,17 @@
 import React from "react";
 import classNames from "classnames";
-function Button(props) {
-  console.log(props);
+const Button = ({ onClick, className, outline, children }) => {
   return (
     <button
-      className={classNames("button", {
-        "button--outline": props.outline,
+      onClick={onClick}
+      className={classNames("button", className, {
+        "button--outline": outline,
       })}
     >
-      {props.children}
+      {children}
     </button>
   );
-}
+};
 
 // function Button() {
 //   return <button>Hello</button>;
