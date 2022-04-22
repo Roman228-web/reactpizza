@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "./Header";
-import Button from "./Button";
+import Header from "./components/Header";
 function App() {
   const clickPoKnopke = () => {
     alert("hello");
