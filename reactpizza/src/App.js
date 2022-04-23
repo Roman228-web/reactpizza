@@ -1,11 +1,7 @@
 import React from "react";
 import { Header, Categories } from "./components";
-//1:10:49
 function App() {
-  const clickPoKnopke = () => {
-    alert("hello");
-  };
-
+  //1:30:46
   return (
     <div className="wrapper">
       <Header />
@@ -13,6 +9,7 @@ function App() {
         <div className="container">
           <div className="content__top">
             <Categories
+              onClickItem={(name) => console.log(name)}
               items={[
                 "Мясные",
                 "Вегетарианская",
