@@ -1,5 +1,5 @@
 import React from "react";
-
+//commit
 class Categories extends React.Component {
   state = {
     activeItem: 0,

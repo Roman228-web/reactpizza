@@ -1,7 +1,6 @@
 import React from "react";
 import { Header, Categories } from "./components";
 function App() {
-  //1:30:46
   return (
     <div className="wrapper">
       <Header />
